@@ -6,4 +6,16 @@
         <Nullable>enable</Nullable>
     </PropertyGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\Domain\Domain.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="CassandraCSharpDriver" Version="3.22.0" />
+      <PackageReference Include="MailKit" Version="4.15.1" />
+      <PackageReference Include="MassTransit" Version="8.5.8" />
+      <PackageReference Include="MassTransit.RabbitMQ" Version="8.5.8" />
+      <PackageReference Include="Microsoft.Extensions.Hosting.Abstractions" Version="10.0.5" />
+    </ItemGroup>
+
 </Project>

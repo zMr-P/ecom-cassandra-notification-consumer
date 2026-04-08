@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Consumer", "Consumer\Consumer.csproj", "{E7491BD2-BDA6-4968-8DC9-927C76DA2DDC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Worker", "Worker\Worker.csproj", "{E7491BD2-BDA6-4968-8DC9-927C76DA2DDC}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application", "Application\Application.csproj", "{CCFE5996-71EA-487D-90F6-A698ABD34CDD}"
 EndProject
@@ -9,6 +9,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure", "Infrastructure\Infrastructure.csproj", "{D81BFD60-66DB-413A-A11D-D4D111A0D492}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DependencyInjection", "DependencyInjection\DependencyInjection.csproj", "{475665E0-873E-4D6C-90B6-0134251BCE32}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Consumer", "Consumer\Consumer.csproj", "{78351566-49D2-4334-9B68-D409BF0DBC1D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -36,5 +38,9 @@ Global
 		{475665E0-873E-4D6C-90B6-0134251BCE32}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{475665E0-873E-4D6C-90B6-0134251BCE32}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{475665E0-873E-4D6C-90B6-0134251BCE32}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78351566-49D2-4334-9B68-D409BF0DBC1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78351566-49D2-4334-9B68-D409BF0DBC1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78351566-49D2-4334-9B68-D409BF0DBC1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78351566-49D2-4334-9B68-D409BF0DBC1D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
